@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{2F63642E-3780-49E3-8076-51EA521213B9}</ProjectGuid>
+    <ProjectGuid>{F4379B30-1F52-4B11-8310-0C5CABAEA27A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Router</RootNamespace>
+    <RootNamespace>Server_Manager</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -155,7 +155,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Router.cpp" />
+    <ClCompile Include="Server_Manager.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
